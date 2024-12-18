@@ -5,7 +5,7 @@ body {
 	height: 100vh;
 	background-image: url(./static/blurredBALLS.svg);
 	background-size: cover;
-	background-color: #ffffff !important;
+
 }
 
 .bg-primary {
@@ -16,6 +16,7 @@ body {
 	box-sizing: border-box;
 	height: 580px;
 	width: 580px;
+	box-shadow: 10px red !important;
 }
 
 .form {
@@ -32,7 +33,7 @@ h1 {
 }
 
 h1 span {
-	color: #695cfe;
+	color: var(--primary)
 }
 
 .subtitle {

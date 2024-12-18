@@ -8,13 +8,24 @@
 
 
 
+
+
 :root {
-	--primary: #695cfe;
-	--primary-darker: #13131B;
-	--bg-color: #121212;
-	--success: #486548;
+	--primary: #3fb4f2;
+	--primary-darker: #2085ba;
+	--bg-color: #ffffff;
+	--success: #638563;
 	--error: #FE3535;
 	--warning: #FFE600;
 }
 
 
+
+.btn-primary {
+	background-color: var(--primary) !important;
+	border-color: var(--primary) !important;
+}
+
+.btn-primary:hover {
+	background-color: var(--primary-darker) !important;
+}

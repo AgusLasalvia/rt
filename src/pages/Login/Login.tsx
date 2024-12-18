@@ -21,7 +21,7 @@ const Login = () => {
 
 	return (
 
-		<div className=" d-flex justify-content-center align-items-center formWrapper bg-primary rounded-5">
+		<div className=" d-flex justify-content-center align-items-center formWrapper  shadow-lg rounded-5">
 			<div className="form p-7">
 				<p className="subtitle text-black">
 					Log in now, or<span> later!</span>
@@ -34,7 +34,7 @@ const Login = () => {
 					<input
 						id="username"
 						name="username"
-						className="form-control rounded-3 border-0 text-black h-100 w-100 mb-4"
+						className="form-control rounded-3 border-2 border-light text-black shadow-sm h-100 w-100 mb-4"
 						type="text"
 						placeholder="Username"
 						onChange={(e) => {
@@ -48,7 +48,7 @@ const Login = () => {
 					<input
 						id="username"
 						name="username"
-						className="form-control rounded-3 border-2 border-light text-black h-100 w-100 mb-4"
+						className="form-control rounded-3 border-2 border-light text-black shadow-sm  h-100 w-100 mb-4"
 						type="text"
 						placeholder="Password"
 						onChange={(e) => {
@@ -58,7 +58,7 @@ const Login = () => {
 				</div>
 				{/* <!-- login button --> */}
 				<div className=' w-100 justify-content-center d-flex'>
-					<button className="btn btn-primary" id="btnLogin" onClick={handleSubmit}>
+					<button className="btn btn-primary w-50" id="btnLogin" onClick={handleSubmit}>
 						login
 					</button>
 				</div>
