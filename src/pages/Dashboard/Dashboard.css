@@ -6,7 +6,14 @@ body {
 }
 
 
+.counters{
+	gap: 160px;
+}
 
-div p {
-	text-align: center;
+.counters-number{
+	font-size: 90px;
+}
+
+.counters-text{
+	font-size: 30px;
 }

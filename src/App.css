@@ -29,3 +29,7 @@
 .btn-primary:hover {
 	background-color: var(--primary-darker) !important;
 }
+
+.text-primary-darker{
+	color:#0729ea !important
+}

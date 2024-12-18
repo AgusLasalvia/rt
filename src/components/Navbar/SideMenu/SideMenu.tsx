@@ -1,10 +1,8 @@
 const links = [
-	{ href: "/new/ticket", icon: "bi bi-ticket", text: "New incident" },
-	{ href: "/new/knowledge", icon: "bx bx-book-add icon", text: "New KB" },
-	{ href: "/lists/allTickets", icon: "bx bx-cabinet icon", text: "Incidents" },
-	{ href: "/lists/myTickets", icon: "bx bx-user-pin icon", text: "My incidents" },
-	{ href: "/lists/knowledge", icon: "bx bx-book-bookmark icon", text: "KB articles" },
-	{ href: "/backlog", icon: "bx bx-bar-chart icon", text: "Backlog" },
+	{ href: "/new/ticket", icon: " bi bi-file-plus icon text-black", text: "New Ticket" },
+	{ href: "/lists/allTickets", icon: "bi bi-ticket icon text-black", text: "Tickets" },
+	{ href: "/lists/myTickets", icon: "bi bi-person-lines-fill icon text-black", text: "My Tickets" },
+	{ href: "/dashboard", icon: "bx bx-bar-chart icon text-black", text: "Dashboard" },
 ]
 
 const Menu = () => {
@@ -14,19 +12,19 @@ const Menu = () => {
 				{/* <!-- Searchbox --> */}
 				<li className="search-box">
 					{/* <!-- PARA BUSCAR KB O INC --> */}
-					<i className="bx bx-search icon"></i>
+					<i className="bi bi-search icon"></i>
 					<input type="text" name="Search" placeholder="Search KB, INC" />
 				</li>
 
-				<ul className="menu-links">
+				<ul className=" d-flex m-0 p-0 flex-column justify-content-center icon-link-hover">
 					{
 						// Auto create all links (<a> tags)
 						links.map((link, index) => {
 							return (
 								<li key={index} className="nav-link">
 									<a href={link.href} >
-									<i className={link.icon}></i>
-										<span className="text nav-text">{link.text}</span>
+										<i className={link.icon}></i>
+										<span className="text text-black">{link.text}</span>
 									</a >
 								</li>
 							)
@@ -39,7 +37,7 @@ const Menu = () => {
 					<a href="/">
 						{/* <!-- bx icon --> */}
 						<i className="bx bx-log-out icon"></i>
-						<span className="text nav-text">Logout</span>
+						<span className="text text-black">Logout</span>
 					</a>
 				</li>
 			</div>

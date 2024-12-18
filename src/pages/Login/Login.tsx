@@ -34,7 +34,7 @@ const Login = () => {
 					<input
 						id="username"
 						name="username"
-						className="form-control rounded-3 border-2 border-light text-black shadow-sm h-100 w-100 mb-4"
+						className="form-control rounded-3 border-2 border-light text-black h-100 w-100 mb-4"
 						type="text"
 						placeholder="Username"
 						onChange={(e) => {
@@ -48,7 +48,7 @@ const Login = () => {
 					<input
 						id="username"
 						name="username"
-						className="form-control rounded-3 border-2 border-light text-black shadow-sm  h-100 w-100 mb-4"
+						className="form-control rounded-3 border-2 border-light text-black h-100 w-100 mb-4"
 						type="text"
 						placeholder="Password"
 						onChange={(e) => {

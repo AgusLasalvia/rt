@@ -12,13 +12,14 @@ const Header = ({ toggleSidebar }: HeaderProps) => {
 					{/* <!--<img src="logo.png" alt="">--> */}
 				</span>
 
-				<div className="text logo-text">
-					<span className="name">Sorvis<span>Later</span></span>
+				<div className="text text-black">
+					<span className="name">Request<span className=" text-primary-darker">Tracer</span></span>
 					<span className="adminName" id="adminName"> username</span>
 				</div>
 			</div>
 
-			<i className="bx bx-chevron-right toggle" onClick={toggleSidebar}></i>
+			{toggleSidebar ? <i className="bi bi-arrow-right-short toggle" onClick={toggleSidebar}></i> : <i className=" bi bi-arrow-left-short toggle" onClick={toggleSidebar}></i>}
+
 
 		</header>
 	)
