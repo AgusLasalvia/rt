@@ -1,8 +1,14 @@
-# Tauri + React + Typescript
+## Clon of the Request Tracker
+This clone is a desktop variable app created with TS+React+Vite+Bootsrap for the front-end & Rust for the backedn with the framework Tauri.
+For the Database this project is using MySQL.
 
-This template should help get you started developing with Tauri, React and Typescript in Vite.
+In the project folder you will have the database tables creation for your own testing.
 
-## Recommended IDE Setup
+This version only handles basic functionalitis of the original product like:
 
-- [VS Code](https://code.visualstudio.com/) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
-# rt
+##Login
+##Ticket Creation
+##Ticket Searching
+#Ticket Modification
+
+As also has a reformed UI for more actual Design and User confort
