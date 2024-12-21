@@ -14,3 +14,7 @@ This version only handles basic functionalitis of the original product like:
 </ul>
 
 As also has a reformed UI for more actual Design and User confort
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Original Product and Owners:
+https://bestpractical.com/request-tracker
