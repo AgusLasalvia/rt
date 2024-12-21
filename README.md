@@ -6,9 +6,11 @@ In the project folder you will have the database tables creation for your own te
 
 This version only handles basic functionalitis of the original product like:
 
-##Login
-##Ticket Creation
-##Ticket Searching
-#Ticket Modification
+<ul>
+  <li>Login</li>
+<li>Ticket Creation</li>
+<li>Ticket Searching</li>
+<li>Ticket Modification</li>
+</ul>
 
 As also has a reformed UI for more actual Design and User confort
